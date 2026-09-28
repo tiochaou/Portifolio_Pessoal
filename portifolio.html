@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Giovanni Allevi - Desenvolvedor Web</title>
+</head>
+<body>
+
+    <header>
+        <h1>Giovanni Allevi - Desenvolvedor Web</h1>
+        <nav>
+            <ul>
+                <li><a href="#sobre">Sobre</a></li>
+                <li><a href="#projetos">Projetos</a></li>
+                <li><a href="#contato">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <hr>
+
+    <section id="sobre">
+        <h2>Sobre Mim</h2>
+        
+        <img src="assets/ge1.jpg" width="200">
+        
+        <p>Sou estudante de <strong>Desenvolvimento de Sistemas</strong> no SENAI.</p>
+        
+        <p><em>Tenho conhecimento em HTML, CSS e estou aprendendo JavaScript.</em></p>
+
+        <h3>Minhas Habilidades:</h3>
+        <ul>
+            <li>HTML5 Semântico</li>
+            <li>CSS3 e Responsividade</li>
+            <li>Formulários e Validação</li>
+            <li>Estruturação de Dados</li>
+        </ul>
+    </section>
+
+    <hr>
+
+    <section id="projetos">
+        <h2>Meus Projetos</h2>
+        
+        <table border="1">
+            <thead>
+                <tr>
+                    <th>Projeto</th>
+                    <th>Tecnologias</th>
+                    <th>Status</th>
+                    <th>Link</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>DCL MySQL</td>
+                    <td>arquivo</td>
+                    <td>Concluído</td>
+                    <td><a href="https://github.com/tiochaou/DCL--mySQL-" target="_blank">Ver Projeto</a></td>
+                </tr>
+                <tr>
+                    <td>Atividade visual</td>
+                    <td>figma</td>
+                    <td>Concluído</td>
+                    <td><a href="https://github.com/tiochaou/atividade-visual-itau" target="_blank">Ver Projeto</a></td>
+                </tr>
+                <tr>
+                    <td>Projeto página Jurassic Park</td>
+                    <td>HTML</td>
+                    <td>Em Andamento</td>
+                    <td><a href="https://github.com/tiochaou/Projeto-filme" target="_blank">Ver Projeto</a></td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+
+    <hr>
+
+    <section id="contato">
+        <h2>Entre em Contato</h2>
+        
+        <form action="#" method="post">
+            <fieldset>
+                <legend>Dados do Contato</legend>
+                
+                <label for="nome">Nome:</label> <br><br>
+                <input type="text" id="nome" name="nome">
+                
+                <label for="email">Email:</label> <br><br>
+                <input type="email" id="email" name="email">
+                
+                <label for="assunto">Assunto:</label> <br><br>
+                <select id="assunto" name="assunto">
+                    <option value="oportunidade">Oportunidade de Trabalho</option>
+                    <option value="duvida">Proposta de Projeto </option>
+                    <option value="outro">Contato Geral</option>
+                </select>
+                
+                <label for="mensagem">Mensagem:</label> <br><br>
+                <textarea id="mensagem" name="mensagem"></textarea>
+                
+                <br><br>
+                <input type="submit" value="Enviar Mensagem">
+            </fieldset>
+        </form>
+    </section>
+
+    <hr>
+
+    <footer>
+        <p>&copy; 2026 Giovanni Allevi. Desenvolvido durante o curso do SENAI.</p>
+        <p>
+            <a href="mailto:giovanni.allevi@outlook.com">giovanni.allevi@outlook.com</a> | 
+            <a href="tel:11996656660">(11) 99665-6660</a>
+        </p>
+    </footer>
+
+</body>
+</html>
